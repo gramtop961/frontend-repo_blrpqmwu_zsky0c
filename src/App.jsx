@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import HeroBooking from "./components/HeroBooking";
+import BookSection from "./components/BookSection";
 import TrustSection from "./components/TrustSection";
 import Footer from "./components/Footer";
 
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <main>
         <HeroBooking />
+        <BookSection />
         <TrustSection />
       </main>
       <Footer />
